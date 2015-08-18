@@ -19,11 +19,11 @@ html {
 /* this goes into css file for sending to ZenGarden: TYPEKIT_ID: jpq5vsi*/
 
 body {
-	font-family: futura-pt;
+	font-family: "futura-pt";
 	font-weight: 400;
 	color: white;
 	// color: #6288a6;
-	background: url(/images/backgroundtextNEW21.jpg);
+	background: url(/"images/backgroundtextNEW21.jpg");
 	background-repeat: repeat-y;
 	background-attachment: fixed;
 	background-position: center;
@@ -51,7 +51,7 @@ h1 {
 	// color: rgba(49,143,218,0.25);
  	// text-shadow: 0 0 5px rgba(0,0,0,0.25);
 	font-size: 2em;
-	font-family: futura-pt;
+	font-family: "futura-pt";
 	font-weight: 300;
 	color: white;
 	// border-left: 14px solid;
