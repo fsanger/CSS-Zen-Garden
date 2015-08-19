@@ -19,11 +19,11 @@ html {
 /* this goes into css file for sending to ZenGarden: TYPEKIT_ID: jpq5vsi*/
 
 body {
-	font-family: futura-pt;
+	font-family: "futura-pt";
 	font-weight: 400;
 	color: white;
 	// color: #6288a6;
-	background: url(/images/backgroundtextNEW21.jpg);
+	background: url("../images/backgroundtextNEW21.jpg");
 	background-repeat: repeat-y;
 	background-attachment: fixed;
 	background-position: center;
@@ -51,7 +51,7 @@ h1 {
 	// color: rgba(49,143,218,0.25);
  	// text-shadow: 0 0 5px rgba(0,0,0,0.25);
 	font-size: 2em;
-	font-family: futura-pt;
+	font-family: "futura-pt";
 	font-weight: 300;
 	color: white;
 	// border-left: 14px solid;
@@ -87,8 +87,11 @@ h2 {
 h3 {
 	color: black;
 	font-size: 0.8em;
+  	-webkit-transform: skewY(20deg);
+  	-moz-transform:    skewY(20deg);
+  	-ms-transform:     skewY(20deg);
+  	-o-transform:      skewY(20deg);
 	transform: skewY(20deg);
-	// -webkit-transform: translate(100px,0px);
 	margin-bottom: -10px;
 	text-transform: uppercase;
 	font-style: normal;
@@ -111,6 +114,10 @@ h3 {
 aside h3 { 
 	text-transform: none;
 	color: black;
+	-webkit-transform: skewY(-20deg);
+  	-moz-transform:    skewY(-20deg);
+  	-ms-transform:     skewY(-20deg);
+  	-o-transform:      skewY(-20deg);
 	transform: skewY(-20deg);
 	margin-bottom: 10px;
 	margin-top: 8%;	
@@ -166,7 +173,11 @@ p:first-of-type {
 }
 
 li {
-	transform:skewY(-20deg);
+  	-webkit-transform: skewY(-20deg);
+  	-moz-transform:    skewY(-20deg);
+  	-ms-transform:     skewY(-20deg);
+  	-o-transform:      skewY(-20deg);
+	transform: skewY(-20deg);
 	line-height: 1.2;
 	font-size: 0.8em;
 	font-weight: 400;
@@ -184,7 +195,11 @@ li {
 
 
 footer {
-	transform:skewY(-20deg);
+  	-webkit-transform: skewY(-20deg);
+  	-moz-transform:    skewY(-20deg);
+  	-ms-transform:     skewY(-20deg);
+  	-o-transform:      skewY(-20deg);
+	transform: skewY(-20deg);
 	line-height: 1.2;
 	font-size: 0.8em;
 	font-weight: 400;
