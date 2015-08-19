@@ -112,10 +112,10 @@ table {
     display: none; } }
 /* this goes into css file for sending to ZenGarden: TYPEKIT_ID: jpq5vsi*/
 body {
-  font-family: futura-pt;
+  font-family: "futura-pt";
   font-weight: 400;
   color: white;
-  background: url(/images/backgroundtextNEW21.jpg);
+  background: url("../images/backgroundtextNEW21.jpg");
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: center;
@@ -136,7 +136,7 @@ body {
 h1 {
   padding: .4em;
   font-size: 2em;
-  font-family: futura-pt;
+  font-family: "futura-pt";
   font-weight: 300;
   color: white;
   background: #ff34b3;
@@ -162,6 +162,10 @@ h2 {
 h3 {
   color: black;
   font-size: 0.8em;
+  -webkit-transform: skewY(20deg);
+  -moz-transform: skewY(20deg);
+  -ms-transform: skewY(20deg);
+  -o-transform: skewY(20deg);
   transform: skewY(20deg);
   margin-bottom: -10px;
   text-transform: uppercase;
@@ -182,6 +186,10 @@ h3 {
 aside h3 {
   text-transform: none;
   color: black;
+  -webkit-transform: skewY(-20deg);
+  -moz-transform: skewY(-20deg);
+  -ms-transform: skewY(-20deg);
+  -o-transform: skewY(-20deg);
   transform: skewY(-20deg);
   margin-bottom: 10px;
   margin-top: 8%;
@@ -222,6 +230,10 @@ p:first-of-type {
   border-top: 10px solid #537fcf; }
 
 li {
+  -webkit-transform: skewY(-20deg);
+  -moz-transform: skewY(-20deg);
+  -ms-transform: skewY(-20deg);
+  -o-transform: skewY(-20deg);
   transform: skewY(-20deg);
   line-height: 1.2;
   font-size: 0.8em;
@@ -237,6 +249,10 @@ li {
   opacity: 0.5; }
 
 footer {
+  -webkit-transform: skewY(-20deg);
+  -moz-transform: skewY(-20deg);
+  -ms-transform: skewY(-20deg);
+  -o-transform: skewY(-20deg);
   transform: skewY(-20deg);
   line-height: 1.2;
   font-size: 0.8em;
