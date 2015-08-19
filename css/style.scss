@@ -67,6 +67,10 @@ h1 {
 }
 
 h2 {
+	-webkit-transform: skewY(-20deg);
+  	-moz-transform:    skewY(-20deg);
+  	-ms-transform:     skewY(-20deg);
+  	-o-transform:      skewY(-20deg);
 	transform:skewY(-20deg);
 	margin-bottom: 30px;
 	// margin-top: -16%;
