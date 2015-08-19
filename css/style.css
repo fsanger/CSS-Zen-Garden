@@ -136,7 +136,7 @@ body {
 h1 {
   padding: .4em;
   font-size: 2em;
-  font-family: "futura-pt";
+  font-family: "futura-pt", Helvetica, sans-serif;
   font-weight: 300;
   color: white;
   background: #ff34b3;
@@ -159,7 +159,7 @@ h2 {
   margin-bottom: 30px;
   font-size: 1.8em;
   color: black;
-  font-family: "futura-pt",sans-serif;
+  font-family: "futura-pt", Helvetica, sans-serif;
   font-weight: 300;
   background-color: white;
   opacity: 0.85;
